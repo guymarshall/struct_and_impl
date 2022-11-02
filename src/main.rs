@@ -8,6 +8,6 @@ fn main() {
             self.value > 0
         }
     }
-    println!();
-    // experiment with this
+    let seven: Number = Number { odd: true, value: 7 };
+    println!("Is seven positive: {}", seven.is_positive());
 }
